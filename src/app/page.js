@@ -10,7 +10,7 @@ import AchievementsSection from "./components/AchievementsSection"
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-black overflow-hidden">
-      <div class="container mt-24 mx-auto px-12 mb-4">
+      <div class="container mx-auto px-12">
         <HeroSection />
         <AchievementsSection />
         <AboutSection />

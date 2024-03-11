@@ -12,7 +12,7 @@ function HeroSection({ navbarOpen }) {
   const [showA, setShowA] = useState(false); // State to control the visibility of the letter "A"
 
   return (
-    <section>
+    <section id="heroSection" className='pt-24'>
       <div className="grid grid-cols-1 sm:grid-cols-12 pt-10 md:pt-0">
         <div 
           className="col-span-7 place-self-center text-center sm:text-left">
