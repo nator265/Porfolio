@@ -91,8 +91,8 @@ const projectsData = [
     
 
   return (
-    <section id='projects'>
-        <h2 className='text-center text-4xl font-bold text-white mt-12 mb-6 md:mt-18 md:mb-8'>
+    <section id='projects' className='pt-28'>
+        <h2 className='text-center text-4xl font-bold text-white mb-6 md:mb-8'>
             My Projects
         </h2>
         <div className='text-white flex flex-row justify-center items-center gap-1 py-6'>
