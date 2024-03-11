@@ -13,7 +13,7 @@ function HeroSection({ navbarOpen }) {
 
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+      <div className="grid grid-cols-1 sm:grid-cols-12 pt-12 md:pt-0">
         <div 
           className="col-span-7 place-self-center text-center sm:text-left">
 
