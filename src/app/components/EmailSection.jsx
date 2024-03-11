@@ -27,13 +27,12 @@ export const EmailSection = () => {
             });
 
             if (response.ok) {
-                setIsModalOpen(true); // Open the modal
+                setIsModalOpen(true);
                 setTimeout(() => {
-                    setIsModalOpen(false); // Close the modal after some time (optional)
-                    router.push('/'); // Redirect to the home page
-                }, 3000); // Adjust the time as per your requirement
+                    setIsModalOpen(false);
+                    router.push('/');
+                }, 3000);
             } else {
-                // Handle error if form submission fails
                 console.error('Form submission failed:', response.statusText);
             }
         } catch (error) {
@@ -104,7 +103,6 @@ export const EmailSection = () => {
                 </button>
             </form>
 
-            // Modal component using Tailwind CSS classes
             {isModalOpen && (
                 <div className="fixed inset-0 z-50 overflow-auto bg-black bg-opacity-50 flex justify-center items-center">
                     <div className="bg-white p-6 rounded-lg">
