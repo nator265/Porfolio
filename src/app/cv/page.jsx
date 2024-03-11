@@ -9,7 +9,7 @@ export default function Page(){
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ type: "spring", stiffness: 120, duration: 0.5 }}
-      className="p-6 bg-white rounded-md shadow-md"
+      className="p-6 bg-white rounded-md shadow-md text-black"
     >
       <h1 className="text-3xl font-bold mb-4">Kelvin Zimba's CV</h1>
       <hr />
