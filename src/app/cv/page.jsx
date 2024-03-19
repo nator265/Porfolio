@@ -35,7 +35,7 @@ export default function Page(){
               Helped in the creation of an application for the ministry of tourism by providing data to the app that can be used by clients to access the service or product that they are looking for.
             </li>
             <li className="mb-2">
-              Managed to broadcast a live stream on Facebook for the Region 5 Youth Games that took place in malawi and was hosted at the Bingu nation stadium in Lilongwe, Malawi.
+              Managed to broadcast a live stream on Facebook for the Region 5 Youth Games that took place in Malawi and was hosted at the Bingu nation stadium in Lilongwe, Malawi.
             </li>
             <li >
               Developed a website for a company called CIM Globac that deals with selling of industry grade pipes and irrigation equipment.

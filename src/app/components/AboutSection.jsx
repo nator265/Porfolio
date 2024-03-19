@@ -72,11 +72,11 @@ const AboutSection = () => {
             <div className='mt-2 md:mt-0 md:grid md:grid-cols-2 gap-8 items-center py-8 xl:gap-16 sm:py-16 pb-0 xl:py-16'>
                 
                 <Image 
-                    src="/images/about-image.jpeg" 
+                    src="/images/me.jpg" 
                     alt='Programer or Developer' 
-                    width={500} 
-                    height={500} 
-                    className='hidden md:flex'
+                    width={600} 
+                    height={600} 
+                    className='hidden md:flex rounded-full'
                 />
 
                 <div className='mt-6 md:mt-0 text-left flex flex-col h-full'>
