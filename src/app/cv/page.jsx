@@ -25,7 +25,7 @@ export default function Page(){
           <h3>Junior Software Engineer (internship)</h3>
           <div className="block md:flex md:justify-between">
             <div className="text-[13px] italic pl-3"> Ctech Systems, Lilongwe, Malawi. </div>
-            <div className="text-[13px] italic pl-5 md:pl-0">16 August - 24 December 2022</div>
+            <div className="text-[13px] italic pl-3 md:pl-0">16 August - 24 December 2022</div>
           </div>
           <ul className="list-disc pl-8 pr-4 pt-2">
             <li className="mb-2">
@@ -49,14 +49,14 @@ export default function Page(){
           <div> Malawi Assemblies of God University </div>
           <div className="block md:flex md:justify-between">
             <div className="text-[13px] italic pl-3"> Bachelor of Commerce in Business Information Systems </div> 
-            <div className="text-[13px] italic pl-5 md:pl-0"> 2018 - 2023 </div>
+            <div className="text-[13px] italic pl-3 md:pl-0"> 2018 - 2023 </div>
           </div>
         </div>
         <div className="pl-3 pr-3 pt-3">
           <div>Michiru View Boys Secondary School</div>
           <div className="block md:flex md:justify-between">
             <div className="text-[13px] italic pl-3"> Malawi School Certificate of Education </div> 
-            <div className="text-[13px] italic pl-5 md:pl-0"> 2016 - 2017 </div>
+            <div className="text-[13px] italic pl-3 md:pl-0"> 2016 - 2017 </div>
           </div>
         </div>
       </div>
