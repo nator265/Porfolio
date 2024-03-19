@@ -28,16 +28,16 @@ export default function Page(){
             <div className="text-[13px] italic pl-5 md:pl-0">16 August - 24 December 2022</div>
           </div>
           <ul className="list-disc pl-8 pr-4 pt-2">
-            <li>
+            <li className="mb-2">
               Provided Emails to clients and taught them how to access the emails and followed up with unlimited support.
             </li>
-            <li>
+            <li className="mb-2">
               Helped in the creation of an application for the ministry of tourism by providing data to the app that can be used by clients to access the service or product that they are looking for.
             </li>
-            <li>
+            <li className="mb-2">
               Managed to broadcast a live stream on Facebook for the Region 5 Youth Games that took place in malawi and was hosted at the Bingu nation stadium in Lilongwe, Malawi.
             </li>
-            <li>
+            <li >
               Developed a website for a company called CIM Globac that deals with selling of industry grade pipes and irrigation equipment.
             </li>
           </ul>
