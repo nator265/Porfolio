@@ -79,7 +79,7 @@ export default function Page(){
       <div>
         <h2 className="text-xl font-semibold mb-2 border border-t-0 border-l-0 border-r-0 pb-2 border-b-black">VOLUNTEER EXPERIENCE</h2>
         <div className="block md:flex md:justify-between">
-          <div className="pl-3 pr-3 pt-3">
+          <div className="pl-3 pr-3">
             Chairman of church youth group
           </div>
           <div className="pl-3 pr-3 text-[13px] italic mb-3">
