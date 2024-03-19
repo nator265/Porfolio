@@ -46,7 +46,7 @@ export default function Page(){
       <div className="mb-4">
         <h2 className="text-xl font-semibold mb-2 border border-t-0 border-l-0 border-r-0 pb-2 border-b-black">Education</h2>
         <div className="pl-3 pr-3">
-          <div>Malawi Assemblies of God University</div>
+          <div> Malawi Assemblies of God University </div>
           <div className="flex justify-between">
             <div className="text-[13px] italic pl-3"> Bachelor of Commerce in Business Information Systems </div> 
             <div className="text-[13px] italic"> 2018 - 2023 </div>
