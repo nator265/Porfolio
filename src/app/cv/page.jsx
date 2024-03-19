@@ -44,7 +44,7 @@ export default function Page(){
         </div>
       </div>
       <div className="mb-4">
-        <h2 className="text-xl font-semibold mb-2 border border-t-0 border-l-0 border-r-0 pb-2 border-b-black">Education</h2>
+        <h2 className="text-xl font-semibold mb-2 border border-t-0 border-l-0 border-r-0 pb-2 border-b-black">EDUCATION</h2>
         <div className="pl-3 pr-3">
           <div> Malawi Assemblies of God University </div>
           <div className="block md:flex md:justify-between">
@@ -61,19 +61,35 @@ export default function Page(){
         </div>
       </div>
       <div className="mb-4">
-        <h2 className="text-xl font-semibold mb-2 border border-t-0 border-l-0 border-r-0 pb-2 border-b-black">Projects</h2>
+        <h2 className="text-xl font-semibold mb-2 border border-t-0 border-l-0 border-r-0 pb-2 border-b-black">PROJECTS</h2>
         <ul className="list-disc pl-6 pt-2">
           <li>Veterinary Appointment Booking System</li>
         </ul>
       </div>
-      <div>
-        <h2 className="text-xl font-semibold mb-2">Skills</h2>
+      <div className="mb-4">
+        <h2 className="text-xl font-semibold mb-2 border border-t-0 border-l-0 border-r-0 pb-2 border-b-black">SKILLS</h2>
         <ul className="list-disc pl-6">
           <li>JavaScript (React, Next.js)</li>
           <li>HTML/CSS (Tailwind CSS)</li>
           <li>Node.js</li>
           <li>PHP</li>
           <li>Svelte</li>
+        </ul>
+      </div>
+      <div>
+        <h2 className="text-xl font-semibold mb-2 border border-t-0 border-l-0 border-r-0 pb-2 border-b-black">VOLUNTEER EXPERIENCE</h2>
+        <div className="block md:flex md:justify-between">
+          <div className="pl-3 pr-3 pt-3">
+            Chairman of church youth group
+          </div>
+          <div className="pl-3 pr-3 text-[13px] italic mb-3">
+            January 2024 - Present
+          </div>
+        </div>
+        <ul className="list-disc pl-6">
+        <li>
+          Directed a fundraising event that generated 220% profit
+        </li>
         </ul>
       </div>
       <div className="text-center py-10">
