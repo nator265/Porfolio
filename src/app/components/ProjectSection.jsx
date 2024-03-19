@@ -9,62 +9,13 @@ const projectsData = [
 
     {
         id: 1,
-        title: "React Portfolio Website",
-        description: "Project 1 description",
-        image: "/images/about-image.jpeg",
-        tag: [ "All", "Web" ],
-        gitUrl:"/",
-        previewUrl:"/"
+        title: "Pizza Ordering Site - Coming Soon",
+        description: "This is a platform were pizza lovers come to order pizza for them to enjoy, Order Yours!",
+        image: "/images/pizza-ordering.jpg",
+        tag: [ "All", "Web", "Mobile" ],
+        gitUrl:"/#",
+        previewUrl:"/#"
         
-    },
-    {
-        id: 2,
-        title: "React Portfolio Website",
-        description: "Project 2 description",
-        image: "/images/about-image.jpeg",
-        tag: [ "All", "Web" ],
-        gitUrl:"/",
-        previewUrl:"/"
-        
-    },
-    {
-        id: 3,
-        title: "React Portfolio Website",
-        description: "Project 3 description",
-        image: "/images/about-image.jpeg",
-        tag: [ "All", "Web" ],
-        gitUrl:"/",
-        previewUrl:"/"
-        
-    },
-    {
-        id: 4,
-        title: "React Portfolio Website",
-        description: "Project 4 description",
-        image: "/images/about-image.jpeg",
-        tag: [ "All", "Web" ],
-        gitUrl:"/",
-        previewUrl:"/"
-        
-    },
-    {
-        id: 5,
-        title: "React Portfolio Website",
-        description: "Project 5 description",
-        image: "/images/about-image.jpeg",
-        tag: [ "All", "Web" ],
-        gitUrl:"/",
-        previewUrl:"/"
-        
-    },
-    {
-        id: 6,
-        title: "React Portfolio Website",
-        description: "Project 6 description",
-        image: "/images/about-image.jpeg",
-        tag: [ "All", "Mobile" ],
-        gitUrl:"/",
-        previewUrl:"/",
     },
 
 ];

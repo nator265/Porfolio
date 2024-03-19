@@ -8,10 +8,10 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
         <div className='h-52 md:h-72 rounded-t-xl relative group transition ease-in-out duration-1000' 
         style={{ background: `url(${imgUrl})`, backgroundSize: "cover"}}>
             <div className='overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 cursor-pointer'>
-              <Link href="gitUrl" className='h-14 w-14 border-2 mr-2 relative rounded-full border-[#ADB7BE] hover:border-white transition ease-in-out duration-1000'>
+              <Link href="#projects" className='h-14 w-14 border-2 mr-2 relative rounded-full border-[#ADB7BE] hover:border-white transition ease-in-out duration-1000'>
                 <CodeBracketIcon className='h-10 w-10 mr-2 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer hover:text-white transition ease-in-out duration-500'/>
               </Link>
-              <Link href="PreviewUrl" className='h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white transition ease-in-out duration-1000 group/link'>
+              <Link href="#projects" className='h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white transition ease-in-out duration-1000 group/link'>
                 <EyeIcon className='h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-white transition ease-in-out duration-500'/>
               </Link>
             </div>
