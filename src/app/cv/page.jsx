@@ -11,24 +11,58 @@ export default function Page(){
       transition={{ type: "spring", stiffness: 120, duration: 0.5 }}
       className="p-6 bg-white rounded-md shadow-md text-black"
     >
-      <h1 className="text-3xl font-bold mb-4">Kelvin Zimba's CV</h1>
+      <h1 className="text-3xl font-bold mb-2">KELVIN ZIMBA</h1>
+      <div className="text-[13px] mb-2">
+        <h3>+265884926300</h3>
+        <h3>kelvinzimba2322000@gmail.com</h3>
+        <h3>Lilongwe, Malawi</h3>
+      </div>
       <hr />
       <br />
-      <div className="mb-4">
-        <h2 className="text-xl font-semibold mb-2">Experience</h2>
-        <ul className="list-disc pl-6">
-          <li>Ctech Systems - Junior Software Engineer (internship) (August-December 2022)</li>
-        </ul>
+      <div className="mb-5">
+        <h2 className="text-xl font-semibold mb-2 border border-t-0 border-l-0 border-r-0 pb-2 border-b-black">WORK EXPERIENCE</h2>
+        <div className="pl-3 pr-3">
+          <h3>Junior Software Engineer (internship)</h3>
+          <div className="flex justify-between">
+            <div className="text-[13px] italic"> Ctech Systems, Lilongwe, Malawi. </div>
+            <div className="text-[13px] italic">16 August - 24 December 2022</div>
+          </div>
+          <ul className="list-disc pl-6 pt-2">
+            <li>
+              Provided Emails to clients and taught them how to access the emails and followed up with unlimited support.
+            </li>
+            <li>
+              Helped in the creation of an application for the ministry of tourism by providing data to the app that can be used by clients to access the service or product that they are looking for.
+            </li>
+            <li>
+              Managed to broadcast a live stream on Facebook for the Region 5 Youth Games that took place in malawi and was hosted at the Bingu nation stadium in Lilongwe, Malawi.
+            </li>
+            <li>
+              Developed a website for a company called CIM Globac that deals with selling of industry grade pipes and irrigation equipment.
+            </li>
+          </ul>
+        </div>
       </div>
       <div className="mb-4">
-        <h2 className="text-xl font-semibold mb-2">Education</h2>
-        <ul className="list-disc pl-6">
-          <li>Malawi Assemblies of God University - Bachelor of Commerce in Business Information Systems (2018-2023)</li>
-        </ul>
+        <h2 className="text-xl font-semibold mb-2 border border-t-0 border-l-0 border-r-0 pb-2 border-b-black">Education</h2>
+        <div className="pl-3 pr-3">
+          <div>Malawi Assemblies of God University</div>
+          <div className="flex justify-between">
+            <div className="text-[13px] italic pl-3"> Bachelor of Commerce in Business Information Systems </div> 
+            <div className="text-[13px] italic"> 2018 - 2023 </div>
+          </div>
+        </div>
+        <div className="pl-3 pr-3 pt-3">
+          <div>Michiru View Boys Secondary School</div>
+          <div className="flex justify-between">
+            <div className="text-[13px] italic pl-3"> Malawi School Certificate of Education </div> 
+            <div className="text-[13px] italic"> 2016 - 2017 </div>
+          </div>
+        </div>
       </div>
       <div className="mb-4">
-        <h2 className="text-xl font-semibold mb-2">Projects</h2>
-        <ul className="list-disc pl-6">
+        <h2 className="text-xl font-semibold mb-2 border border-t-0 border-l-0 border-r-0 pb-2 border-b-black">Projects</h2>
+        <ul className="list-disc pl-6 pt-2">
           <li>Veterinary Appointment Booking System</li>
         </ul>
       </div>
