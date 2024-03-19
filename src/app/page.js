@@ -9,14 +9,13 @@ import AchievementsSection from "./components/AchievementsSection"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-black overflow-hidden">
+    <main className="flex min-h-screen flex-col bg-black overflow-hidden md:pb-28">
       <div class="container mx-auto px-12">
         <HeroSection />
         <AchievementsSection />
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
-        <Footer />
         <Navbar />
       </div>
     </main>
