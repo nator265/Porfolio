@@ -94,8 +94,8 @@ const AboutSection = () => {
 						className='text-base lg:text-lg lg:pr-20 lg:text-justify'>
 						I am a full stack web developer with a passion for creating
 						interactive and responsive web applications. I have experience
-						working with Javascript, React, Redux, Node.js, Flutter, Laravel,
-						HTML, CSS, and Git. I am a quick learner always lookin forward to
+						working with Javascript, React, nextJs, Redux, Node.js, Flutter, Laravel,
+						HTML, CSS, mongoDB, Express and Git. I am a quick learner always lookin forward to
 						expand my knowledge and skill set. I am a team player and I am
 						excited to work with others to create amazing applications.
 					</motion.p>
