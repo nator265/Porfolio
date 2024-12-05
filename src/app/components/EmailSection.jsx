@@ -78,10 +78,10 @@ export const EmailSection = () => {
                 </motion.p>
                 <div className='socials flex flex-row gap-2 mt-5'>
                     <Link href="github.com" className='bg-white w-200 h-200 rounded-full'>
-                        <Image src={GithubIcon} alt='Github Icon' height={50} width={50}/>
+                        <Image src={'https://github.com/nator265'} alt='Github Icon' height={50} width={50}/>
                     </Link>
                     <Link href="linkedin.com" className='bg-white rounded-full'>
-                        <Image src={LinkedinIcon} alt='Linkedin Icon' height={50} width={50} />
+                        <Image src={'linkedin.com/in/kelvin-zimba-7b0549273'} alt='Linkedin Icon' height={50} width={50} />
                     </Link>
                 </div>
             </div>
