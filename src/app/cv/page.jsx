@@ -13,8 +13,8 @@ export default function Page(){
     >
       <h1 className="text-3xl font-bold mb-2">KELVIN ZIMBA</h1>
       <div className="text-[13px] mb-2">
-        <h3>+265884926300</h3>
-        <h3>kelvinzimba2322000@gmail.com</h3>
+        {/* <h3>+265884926300</h3>
+        <h3>kelvinzimba2322000@gmail.com</h3> */}
         <h3>Lilongwe, Malawi</h3>
       </div>
       <hr />
